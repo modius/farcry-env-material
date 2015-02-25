@@ -1,6 +1,6 @@
-# Chelsea: Workbench Installation
+# Material: Workbench Installation
 
-FarCry workbench for Chelsea project development.
+FarCry workbench for Material project development.
 
 ## Setting up the Daemonite Vagrant Workbench
 
@@ -15,8 +15,8 @@ This only needs to be the once per workstation. If you already have a working Va
 
 Requires an existing installation of the standard Daemonite Vagrant Workbench.
 
-    git clone https://github.com/modius/farcry-env-chelsea.git
-    cd farcry-env-chelsea
+    git clone https://github.com/modius/farcry-env-material.git
+    cd farcry-env-material
     git submodule update --init
     vagrant up
 
@@ -30,9 +30,9 @@ Change directory to the root of the project and `vagrant up`.
 
 Site access:
 
-- http://chelsea.local (or http://IPADDRESS)
-- http://chelsea.local/webtop (farcry/farcry)
-- http://chelsea.local/lucee/admin/server.cfm (pwd: farcry)
+- http://material.local (or http://IPADDRESS)
+- http://material.local/webtop (farcry/farcry)
+- http://material.local/lucee/admin/server.cfm (pwd: farcry)
 
 To restart Lucee server `vagrant ssh` onto the virtual:
 

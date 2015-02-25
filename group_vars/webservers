@@ -1,13 +1,13 @@
 ---
   # website variables
-  farcry_repository: https://github.com/farcrycore/project-chelsea.git
+  farcry_repository: https://github.com/farcrycore/project-material.git
   farcry_branch: "master"
   farcry_fcscript: install/deploy.txt
   farcry_path: /opt/www
   farcry_installer_run: True
-  farcry_installer_displayname: Chelsea
-  farcry_installer_project: chelsea
-  farcry_installer_updateappkey: chelsea
+  farcry_installer_displayname: Material
+  farcry_installer_project: material
+  farcry_installer_updateappkey: material
   farcry_installer_password: farcry
 
   nginx_selfsigned: True
@@ -25,4 +25,4 @@
 
   log_sync_directory: ""
 
-  web_root: /opt/www/projects/chelsea/www
+  web_root: /opt/www/projects/material/www
